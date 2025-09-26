@@ -33,3 +33,5 @@ def main():
         else:
             print("\nOpção inválida! Tente novamente.")
             input("Pressione Enter para continuar...")
+if _name_ == "_main_":
+    main()
