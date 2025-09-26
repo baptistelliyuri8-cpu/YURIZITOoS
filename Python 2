@@ -1,0 +1,12 @@
+def menu():
+    clear()
+    print("=== SALA DO FUTURO ===")
+    print("1 - Opção 1")
+    print("2 - Opção 2")
+    print("3 - Sair")
+
+    escolha = input("Escolha uma opção: ")
+    while escolha not in ["1", "2", "3"]:
+        print("Opção inválida!")
+        escolha = input("Escolha uma opção: ")
+    return escolha
